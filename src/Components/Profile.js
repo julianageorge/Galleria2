@@ -43,7 +43,7 @@ const Profile = () => {
         style={{
           backgroundImage: `url(${Largeimage})`,
         }}>
-        <div className="name p-6  left-[-1px] bottom-[-20px] cursor-pointer md:order-2 md:pb-4 md:w-[445px] md:h-[300px] md:p-2 absolute md:top-[-1px] md:left-[250px] overflow-visible bg-white">
+        <div className="name p-6 w-[250px] left-[-1px] bottom-[-20px] cursor-pointer md:order-2 md:pb-4 md:w-[445px] md:h-[300px] md:p-2 absolute md:top-[-1px] md:left-[250px] overflow-visible bg-white">
           <div className="text-2xl md:text-6xl font-bold p-3">{record.name}</div>
           <div className="text-lg text-darkGray pl-4">{record.artist.name}</div>
         </div>
